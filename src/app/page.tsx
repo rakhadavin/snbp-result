@@ -36,9 +36,10 @@ export default function Home() {
           <Button
             variant="outline"
             className="border-2 border-pink-400 text-pink-500 hover:bg-pink-50 font-medium px-6 py-2"
-            onClick={() => redirect("https://success-snbt.vercel.app/")}
           >
+            <Link href={"https://success-snbt.vercel.app/"}>
             Success
+            </Link>
           </Button >
         </div>
       </div>
