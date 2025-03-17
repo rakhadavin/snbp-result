@@ -29,16 +29,16 @@ export default function Home() {
           <Button className="bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white font-medium px-6 py-2">
             <Link href={"https://gift-card-inky-seven.vercel.app/"}>
             
-            Success
+            Nice Try
             </Link>
           </Button>
 
           <Button
             variant="outline"
             className="border-2 border-pink-400 text-pink-500 hover:bg-pink-50 font-medium px-6 py-2"
-            onClick={() => redirect("/")}
+            onClick={() => redirect("https://love-eternity-46oq.vercel.app/")}
           >
-            Nice Try
+            Success
           </Button >
         </div>
       </div>
